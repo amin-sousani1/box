@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.box.one{
+    background-color: blue;
+    left: 40px;
+    top: 70px;
+    z-index: 1;
+}
+
+.box.two{
+    background-color: blue;
+    left: 420px;
+    top: 356px;
+}
+
+.box.three{
+    background-color: red;
+    left: 220px;
+    top: 40px;
+}
+
+.box.four{
+    background-color: red;
+    top: 140px;
+    left: 110px;
+    z-index: 3;
+
+}
